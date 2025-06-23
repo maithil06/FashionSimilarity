@@ -23,3 +23,45 @@ This project demonstrates how visual similarity in fashion can be computed using
 ├── main-fashion-similarity.ipynb # Inference & similarity search demo
 └── training-for-fashion-dataset.ipynb # Feature extraction & embedding generation
 ```
+
+## 🛠️ Technologies Used
+
+- **CLIP** by OpenAI  
+- **ViT** (Vision Transformer)  
+- **EfficientNet**, **ConvNeXt**  
+- **FAISS** for fast nearest neighbor search  
+- **NumPy**, **Matplotlib**, **Streamlit/Gradio** (optional frontend)  
+
+## ⚙️ How It Works
+
+1. Extract image embeddings from a dataset using CLIP, ViT, EfficientNet, or ConvNeXt.
+2. Store these features as `.npy` files.
+3. Upload a new query image.
+4. Use FAISS to find top K nearest images based on cosine similarity.
+5. Display similar outfits.
+
+## 🚀 Use Cases
+
+- Fashion product recommendation engines
+- Visual search in e-commerce
+- Virtual personal stylists
+- Outfit inspiration & trend discovery
+
+## 📦 Getting Started
+
+### Clone the Repo
+```bash
+git clone https://github.com/maithil06/FashionSimilarity.git
+cd FashionSimilarity
+```
+
+## Run Notebook
+```bash
+jupyter notebook main-fashion-similarity.ipynb
+```
+## 🤝 Contributing
+Pull requests are welcome! If you'd like to suggest features or improvements, feel free to open an issue.
+
+## 📄 License
+This project is open-source and available under the MIT License.
+
